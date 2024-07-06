@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    scroll-behavior: smooth;
+}
+
+.main {
+    background: rgb(252,69,226);
+    background: linear-gradient(90deg, rgba(252,69,226,1) 0%, rgba(29,237,253,1) 50%, rgba(252,69,226,1) 100%);    background-size: cover;
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+
+.box {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 45%;
+    margin: 0px auto;
+    height: calc(80vh - 130px);
+
+}
+.heading{
+    height: 130px;
+    overflow: hidden;
+}
+.heading span {
+    height: 43px;
+    width: 42px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    color: green;
+    transform: rotate(20deg);
+    margin: 0 10px;
+    box-shadow: 2px 2px 6px #a5a5a5;
+}
+.child-2{
+    transform: rotate(-20deg) !important;
+    color: red !important;
+
+}
+.child-3{
+    transform: rotate(10deg) !important;
+    color: blue !important;
+
+}
+.child-4{
+    transform: rotate(-20deg) !important;
+    color: black !important;
+
+}
+.form{
+    height: 40px;
+    width: 60%;
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-shadow: 2px 2px 6px #a5a5a5;
+}
+.form .input-fields{
+    border: none;
+    outline: none !important;
+    width: 80%;
+}
+.task-button{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: green;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    height: 300px;
+    overflow-y:scroll ;
+    scroll-behavior: smooth;
+    margin: 10px 0;
+    padding: 0 !important;
+}
+ul::-webkit-scrollbar{
+    display: none;
+}
+ul > li {
+    background-color: #fff;
+    width: 60%;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #a5a5a5;
+    overflow: visible !important;
+}
+.completed{
+    background-color: transparent !important;
+    text-decoration: line-through;
+}
+.task-chekar{
+    position: absolute;
+    left: 70px;
+    color: red;
+    font-size: 20px !important;
+}
+.modal-title{
+    font-size:18px !important;
+}
+
+@media (max-width:992px) {
+ .box{
+    width: 60%;
+ }   
+}
+@media (max-width:667px) {
+ .box{
+    width: 80%;
+ }   
+}
+@media (max-width:500px) {
+ .box{
+    width: 90%;
+ } 
+ .form , ul > li{
+    width: 80%;
+ }  
+}
