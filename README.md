@@ -1,3 +1,117 @@
+# Todo App
+
+A simple and intuitive Todo application built with React and Redux Toolkit. This app allows users to add, edit, and manage their tasks efficiently.
+
+## Features
+
+- Add new todos
+- Edit existing todos
+- Mark todos as completed
+- Delete todos
+- Responsive design
+- Uses Bootstrap for styling
+
+## Demo
+
+[Live Demo](#)
+
+## Screenshots
+
+https://drive.google.com/file/d/1HiUIsCJaDaDOELUc_E-k1VH1LP7hIHTa/view?usp=sharing
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+## Usage
+
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Use the input field to add new todos.
+3. Click the edit button to open the modal and edit a todo.
+4. Use the checkbox to mark a todo as completed.
+5. Click the delete button to remove a todo.
+
+## Project Structure
+
+```plaintext
+todo-app/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── EditTodoModal.js
+│   │   ├── TodoList.js
+│   │   └── ...
+│   ├── redux/
+        └── \store.js/
+│   │   └── \slice/
+│   │       ├── todosSlice.js
+│   │       └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
+
+## Technologies Used
+
+- React
+- Redux Toolkit
+- Bootstrap
+- JavaScript
+- HTML
+- CSS
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [React](https://reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Bootstrap](https://getbootstrap.com/)
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out to me at [your-email@example.com].
+
+```
+
+### Instructions
+
+1. **Repository URL**: Replace `https://github.com/hamidrazaansari/todo-with-redux` with your actual repository URL.
+2. **Live Demo**: If you have a live demo of your app, provide the link where it says `[Live Demo](#)`.
+3. **Screenshot**: Add a screenshot of your app and replace `screenshot.png` with the path to your screenshot.
+4. **Contact Information**: Replace `[hamidrazaansari22@gmail.com]` with your actual email address.
+5. **Additional Customization**: Modify any sections as needed to better fit your project's specifics.
+
+Feel free to customize this template further based on your project's unique features and requirements.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
