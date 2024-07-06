@@ -13,7 +13,7 @@ A simple and intuitive Todo application built with React and Redux Toolkit. This
 
 ## Demo
 
-[Live Demo](#)
+[Live Demo]  https://todoappwithredux01.netlify.app/
 
 ## Screenshots
 
@@ -104,7 +104,7 @@ If you have any questions or feedback, feel free to reach out to me at [your-ema
 ### Instructions
 
 1. **Repository URL**: Replace `https://github.com/hamidrazaansari/todo-with-redux` with your actual repository URL.
-2. **Live Demo**: If you have a live demo of your app, provide the link where it says `[Live Demo](#)`.
+2. **Live Demo**: If you have a live demo of your app, provide the link where it says `[[Live Demo](#)](https://todoappwithredux01.netlify.app/)`.
 3. **Screenshot**: Add a screenshot of your app and replace `screenshot.png` with the path to your screenshot.
 4. **Contact Information**: Replace `[hamidrazaansari22@gmail.com]` with your actual email address.
 5. **Additional Customization**: Modify any sections as needed to better fit your project's specifics.
